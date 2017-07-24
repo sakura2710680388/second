@@ -1,3 +1,4 @@
+/* index */
 /* header */
 body{
 	color:#fff;
@@ -294,3 +295,63 @@ ul.share_group{
 	border:1px solid #888;
 	font-size:14px;
 }
+
+
+
+/* article */
+.article #banner{
+	height:300px;
+}
+.article h1{
+	border:none;
+}
+.article #banner .inner{
+	top:50px;
+}
+
+.article .content{
+	background:transparent;
+}
+.content_wrapper{
+	width:1080px;
+	margin:0 auto;
+}
+.article_info{
+	font-size:14px;
+	color:#888;
+	padding:40px 40px 20px 40px;
+	background:rgba(255,255,255,0.7);
+}
+.article article{
+	line-height:2;
+	padding:20px 40px;
+	color:#000;
+	background:rgba(255,255,255,0.7);
+	text-indent:2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
