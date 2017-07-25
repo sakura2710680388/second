@@ -17,8 +17,10 @@ a{
 	text-decoration:none;
 }
 nav{
-	background:rgba(0,0,0,0.2);
+	background:rgba(0,0,0,0.1);
 	height:50px;
+	width:100%;
+	position:fixed;
 }
 nav ul{
 	list-style:none;
@@ -89,14 +91,13 @@ h1{
 	font-size:20px;
 	letter-spacing:4px;
 	border-radius:12px;
-	background:#18a;
+	background:#0cb6cc;
 }
 .more{
 	margin-top:180px;	
 }
 
 .active{
-	width:100%;
 	border-bottom:2px solid #fff;
 }
 
@@ -119,9 +120,10 @@ h2{
 	font-size:30px;
 }
 .green_section .hr{
-	width:100%;
+	width:50%;
 	height:2px;
 	margin:20px auto;
+	background:#50acb7;
 }
 
 .green_section .icon_group{
@@ -131,14 +133,16 @@ h2{
 	display:inline-block;
 	width:80px;
 	height:80px;
-	border:1px solid #0d6f7c;
+	border:2px solid #50acb7;
 	margin:30px;
 	transform:rotate(45deg);
 }
 .icon i{
-	width:50px;
-	height:50px;
-	transform:rotate(-90deg);
+	display:inline-block;
+	width:80px;
+	height:80px;
+	transform:rotate(-45deg);
+	line-height:80px;
 }
 
 .gray_section{
@@ -193,9 +197,9 @@ h2{
 	margin-bottom:40px;
 }
 .purple_section .hr{
-	background:#402f5c;
+	background:#39335b;
 	width:50%;
-	height:1px;
+	height:2px;
 	margin:0 auto 20px;
 }
 
@@ -268,7 +272,7 @@ ul.share_group{
 }
 .sidebar{
 	width:300px;
-	background:#333;
+	background:#089db0;
 	position:fixed;
 	top:0;
 	bottom:0;
@@ -284,8 +288,9 @@ ul.share_group{
 .sidebar ul a{
 	color:#fff;
 	display:inline-block;
-	width:100%;
-	padding:30px 50px;
+	width:70%;
+	margin:30px 50px;
+	border-bottom:1px solid #fff;
 }
 
 .back_to_top{
@@ -306,7 +311,7 @@ ul.share_group{
 	border:none;
 }
 .article #banner .inner{
-	top:50px;
+	top:80px;
 }
 
 .article .content{

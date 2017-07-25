@@ -34,4 +34,11 @@ $(function(){
 	});
 	
 	$(window).trigger("scroll");
+	
+	
+	
+	$("#nav ul li").mouseover(function(){
+		$(this).addClass('active').siblings().removeClass('active');
+	});
+	
 })
