@@ -19,7 +19,9 @@ body{
 .none{
 	display:none;
 }
-
+.block{
+	display:block;
+}
 /* header */
 header{
 	width:100%;
@@ -55,7 +57,7 @@ header{
 	left:0;
 	bottom:50px;
 	overflow:auto;
-	background:#43434d;
+	background:#272738;
 	margin:10px;
 	width:250px;
 }
@@ -74,7 +76,7 @@ header{
 	background:url(../images/bg1.png) no-repeat 200px 20px;
 }
 .left ul li.selected h4{
-	background-position:270px -45px;
+	background-position:200px -45px;
 	background-color:#00a5a5;
 }
 .left h4 span{
@@ -106,14 +108,13 @@ header{
 .pic1 span{background:url(../images/ioc.png) 0 -6px;}
 .pic2 span{background:url(../images/ioc.png) -36px -6px;}
 .pic3 span{background:url(../images/ioc.png) -72px -6px;}
-.pic4 span{background:url(../images/ioc.png) -36px -40px;}
-.pic5 span{background:url(../images/ioc.png) -72px -40px;}
-.pic6 span{background:url(../images/ioc.png) -1px -40px;}
-.pic7 span{background:url(../images/ioc.png) -1px -70px;}
+.pic4 span{background:url(../images/ioc.png) -36px -38px;}
+.pic5 span{background:url(../images/ioc.png) -72px -38px;}
+.pic6 span{background:url(../images/ioc.png) -1px -38px;}
+.pic7 span{background:url(../images/ioc.png) -1px -67px;}
 .pic8 span{background:url(../images/ioc.png) -36px -70px;}
 .pic9 span{background:url(../images/ioc.png) -72px -70px;}
 .pic10 span{background:url(../images/ioc.png) -3px -105px;}
-
 
 
 .right{
